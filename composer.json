@@ -1,0 +1,18 @@
+{
+  "name": "nguyenvanthanh/shop-gaming-gear",
+  "description": "Mã sinh viên: 2122110536, Họ tên: Nguyễn Văn Thành - Lớp: CCQ2211M",
+  "autoload": {
+    "psr-4": {
+      "App\\": "application/"
+    },
+    "files": [
+      "configs/database.php",
+      "application/Route.php",
+      "application/core.php"
+    ]
+  },
+  "require": {
+    "illuminate/database": "^10.39",
+    "illuminate/events": "^10.39"
+  }
+}
